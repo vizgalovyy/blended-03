@@ -1,7 +1,7 @@
 /* Цей старий файл зі стилями з 3-4 модуля, звідси
 за потреби потрібно переносити стилі в основний файл */
 
-.hero-section {
+/* .hero-section {
   max-width: 1280px;
   margin: 0 auto;
   padding-top: 250px;
@@ -10,9 +10,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
+} */
 
-.hero-title {
+/* .hero-title {
   max-width: 1001px;
   margin: 0 auto;
   margin-bottom: 24px;
@@ -22,9 +22,9 @@
   line-height: 1;
   letter-spacing: -0.02em;
   text-align: center;
-}
+} */
 
-.hero-text {
+/* .hero-text {
   max-width: 597px;
   margin: 0 auto;
   margin-bottom: 48px;
@@ -33,9 +33,9 @@
   line-height: 1.4;
   text-align: center;
   color: #b4b7ba;
-}
+} */
 
-.hero-button {
+/* .hero-button {
   display: block;
   margin: 0 auto;
   padding: 16px 40px;
@@ -52,10 +52,10 @@
   transition-property: color, background-color;
   transition-duration: 250ms;
   transition-timing-function: ease-in-out;
-}
+} */
 
-.hero-button:hover,
+/* .hero-button:hover,
 .hero-button:focus {
   color: #1b414b;
   background-color: #fbfbfb;
-}
+} */
