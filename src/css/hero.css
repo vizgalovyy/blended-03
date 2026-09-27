@@ -1,18 +1,107 @@
 /* Мобільні стилі */
 .hero-section {
-  /* ... */
+  max-width: 375px;
+  margin: 0 auto;
+  padding-top: 260px;
+  padding-bottom: 280px;
+  background-image: url(/img/hero/hero-desk.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-title {
+  max-width: 335px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
+.hero-text {
+  max-width: 335px;
+  margin: 0 auto;
+  margin-bottom: 38px;
+
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.4;
+  text-align: center;
+  color: #b4b7ba;
+}
+
+.hero-button {
+  display: block;
+  margin: 0 auto;
+  padding: 16px 40px;
+  min-width: 179px;
+  border-radius: 15px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  background-color: #1b414b;
+
+  transition-property: color, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: ease-in-out;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  color: #1b414b;
+  background-color: #fbfbfb;
 }
 
 /* Планшетні стилі */
 @media screen and (min-width: 768px) {
   .hero-section {
-    /* ... */
+    max-width: 768px;
+    padding-top: 220px;
+    padding-bottom: 180px;
+  }
+
+  .hero-title {
+    max-width: 704px;
+
+    font-size: 70px;
+  }
+
+  .hero-text {
+    max-width: 597px;
+    margin-bottom: 48px;
+    font-size: 16px;
+  }
+
+  .hero-button {
+    display: block;
+    margin: 0 auto;
+    padding: 14px 32px;
+    min-width: 141px;
+    border-radius: 15px;
+
+    font-size: 18px;
+    line-height: 1.1;
   }
 }
 
 /* Десктопні стилі */
 @media screen and (min-width: 1280px) {
   .hero-section {
-    /* ... */
+    max-width: 1280px;
+    padding-top: 250px;
+    padding-bottom: 200px;
+  }
+
+  .hero-title {
+    max-width: 1001px;
+
+    font-size: 80px;
   }
 }
